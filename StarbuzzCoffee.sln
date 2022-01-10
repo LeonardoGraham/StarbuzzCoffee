@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbuzzCoffee", "StarbuzzCoffee\StarbuzzCoffee.csproj", "{CE1EEE51-5BAF-4695-A678-66B4836F0495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE1EEE51-5BAF-4695-A678-66B4836F0495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1EEE51-5BAF-4695-A678-66B4836F0495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1EEE51-5BAF-4695-A678-66B4836F0495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1EEE51-5BAF-4695-A678-66B4836F0495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
