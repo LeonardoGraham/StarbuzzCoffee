@@ -1,8 +1,7 @@
-﻿using StarbuzzCoffee;
+﻿namespace StarbuzzCoffee;
 
 public abstract class CondimentDecorator : Beverage
 {
-    private Beverage _beverage;
-
-    public abstract string Beverage { get; set; }
+    protected Beverage Beverage { get; init; }
+    public new abstract string Description { get; }
 }

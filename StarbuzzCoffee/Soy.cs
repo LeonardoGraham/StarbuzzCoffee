@@ -2,15 +2,12 @@
 
 public class Soy : CondimentDecorator
 {
-    public Soy(Beverage beverage) : base(beverage)
+    public Soy(Beverage beverage) 
     {
         Beverage = beverage;
     }
 
-    public override string Description
-    {
-        get => Beverage.Description + ", Soy";
-    }
+    public override string Description => Beverage.Description + ", Soy";
 
     public override double Cost()
     {
