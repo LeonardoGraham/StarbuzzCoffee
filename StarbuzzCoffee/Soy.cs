@@ -2,12 +2,12 @@
 
 public class Soy : CondimentDecorator
 {
+    public override string Description => Beverage.Description + ", Soy";
+    
     public Soy(Beverage beverage) 
     {
         Beverage = beverage;
     }
-
-    public override string Description => Beverage.Description + ", Soy";
 
     public override double Cost()
     {

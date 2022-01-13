@@ -2,6 +2,6 @@
 
 public abstract class CondimentDecorator : Beverage
 {
-    protected Beverage Beverage { get; init; }
-    public new abstract string Description { get; }
+    protected Beverage Beverage;
+    public abstract override string Description { get; }
 }
